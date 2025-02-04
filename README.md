@@ -71,3 +71,39 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+<!-- https://docs.google.com/presentation/d/1edjTozp2msxYZhYdOyDbUTrZB4IPIsRDax1LTU-GB8I/edit#slide=id.gf2bd0bd148_0_0 -->
+
+Монолит. Что такое монолит?
+
+Создал веб-сервер на Node.JS. Это какое-то API.
+
+/users
+/orders - список заказов
+/payment - оплата.
+/goods - список товаров
+
+Плюсы.
+
+- быстрый старт
+- единый деплой/тестирование и прочее.
+- дешевизна разработки.
+
+
+Запрос к сервису.
+
+1 Запрос. Ошибка. Повтороить 1 сек.
+2 Запрос. Ошибка. Повтороить 2 сек.
+3 Запрос. Ошибка. Повтороить 4 сек
+
+gRPC.
+
+Клиент-сервер
+
+Стримы разных видов.
+
+3 веб-фреймворка
+
+- express
+- NestJS. Взял бы его.
+- fastify. Я люблю его.
